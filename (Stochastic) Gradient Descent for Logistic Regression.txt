@@ -1,0 +1,29 @@
+                                    
+                                         Anchal Jangir(v21085)
+                              M.Sc Applied Maths (IIT Mandi)
+
+
+           GRADIENT DESCENT ALGORITHM & STOCHASTIC GRADIENT DESCENT ALGORITHM
+
+
+This is  a  readme manual file for Gradient Descent Algorithm.and SGD  for mini batches.
+1. Installing and importing numpy respectively and run the command.(pip install numpy)
+import numpy as np)
+2. Uploading of the data file. (Here  data was a  SVM light data set, to import the data set we use the sklearn library.)
+3. Installing & importing matplotlib respectively, to plot curves . (pip install matplotlib ) (import matplotlib.pyplot as plt)
+
+4. Define  a  standard function in the following format-
+• Sigmoid  function as  s igmoid. 
+• Loss function as l oss_fun.
+• Gradient o f loss function as  grad_fun.
+5.  Defining a function  for Gradient descent  Algorithm as  grad_dec and passing required arguments.
+The procedure of Gradient Descent Algorithm-
+1) Initializing w randomly.
+2) Updating  the parameter w as
+L(w1 )=L(w0  ) –  eta del L(w0 )L(w2)=L(w1  )  – eta del L(w1 )
+3) And repeating the process is repeated until we get optimized w that minimizes the loss function.
+6.  Defining a function  for the  Stochastic Gradient descent  (SGD)  Algorithm as  sgd  for mini batches and passing required arguments.
+The procedure of the  Stochastic  Gradient Descent Algorithm-
+1) Defining  mini-batches named as "x_batch","y_batch".
+2) Repeating the same as  "grad_des" function for x_batch and y_batch..
+7.  Each time changing no of  iteration and learning rate we get, different  graph of  loss function w.r.t time  and accuracy w.r.t time ( If  wants to calculate weights w  print(w) in the function only.)
